@@ -2,7 +2,7 @@
   "name": "typescript-example",
   "version": "1.0.0",
   "scripts": {
-    "build": "tsc index.ts"
+    "build": "tsc --outDir dist index.ts"
   },
   "dependencies": {
     "typescript": "3.9.6"
